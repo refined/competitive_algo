@@ -23,6 +23,7 @@
     <ProjectGuid>{F1CDBF3E-B8DF-45DA-996B-85C6FFC1A682}</ProjectGuid>
     <RootNamespace>yadev2019r2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>competitive_algo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,6 +77,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -84,6 +86,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -116,29 +119,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ya_dev_2019r2_1.cpp" />
-    <ClCompile Include="ya_dev_2019r2_2.cpp" />
-    <ClCompile Include="ya_dev_2019r2_3.cpp" />
-    <ClCompile Include="ya_dev_2019r2_4.cpp" />
-    <ClCompile Include="ya_dev_2019r2_5.cpp" />
-    <ClCompile Include="ya_dev_2019r2_6.cpp" />
+    <ClCompile Include="segment_tree_testing.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="segment_tree.h" />
     <ClInclude Include="tests.h" />
-    <ClInclude Include="ya_dev_2019r2_1.h" />
-    <ClInclude Include="ya_dev_2019r2_2.h" />
-    <ClInclude Include="ya_dev_2019r2_3.h" />
-    <ClInclude Include="ya_dev_2019r2_4.h" />
-    <ClInclude Include="ya_dev_2019r2_5.h" />
-    <ClInclude Include="ya_dev_2019r2_6.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ya_dev_2019r2_1_test.txt" />
-    <Text Include="ya_dev_2019r2_2_test.txt" />
-    <Text Include="ya_dev_2019r2_3_test.txt" />
-    <Text Include="ya_dev_2019r2_4_test.txt" />
-    <Text Include="ya_dev_2019r2_5_test.txt" />
-    <Text Include="ya_dev_2019r2_6_test.txt" />
+    <Text Include="segment_tree_testing.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

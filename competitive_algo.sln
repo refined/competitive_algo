@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ya_dev_2019r2", "ya_dev_2019r2\ya_dev_2019r2.vcxproj", "{F1CDBF3E-B8DF-45DA-996B-85C6FFC1A682}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "competitive_algo", "competitive_algo\competitive_algo.vcxproj", "{F1CDBF3E-B8DF-45DA-996B-85C6FFC1A682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
