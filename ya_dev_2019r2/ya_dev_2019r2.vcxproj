@@ -115,6 +115,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ya_dev_2019r2_1.cpp" />
+    <ClCompile Include="ya_dev_2019r2_2.cpp" />
+    <ClCompile Include="ya_dev_2019r2_3.cpp" />
+    <ClCompile Include="ya_dev_2019r2_4.cpp" />
+    <ClCompile Include="ya_dev_2019r2_5.cpp" />
+    <ClCompile Include="ya_dev_2019r2_6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests.h" />
+    <ClInclude Include="ya_dev_2019r2_1.h" />
+    <ClInclude Include="ya_dev_2019r2_2.h" />
+    <ClInclude Include="ya_dev_2019r2_3.h" />
+    <ClInclude Include="ya_dev_2019r2_4.h" />
+    <ClInclude Include="ya_dev_2019r2_5.h" />
+    <ClInclude Include="ya_dev_2019r2_6.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ya_dev_2019r2_1_test.txt" />
+    <Text Include="ya_dev_2019r2_2_test.txt" />
+    <Text Include="ya_dev_2019r2_3_test.txt" />
+    <Text Include="ya_dev_2019r2_4_test.txt" />
+    <Text Include="ya_dev_2019r2_5_test.txt" />
+    <Text Include="ya_dev_2019r2_6_test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

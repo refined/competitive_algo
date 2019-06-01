@@ -14,4 +14,70 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ya_dev_2019r2_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ya_dev_2019r2_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ya_dev_2019r2_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ya_dev_2019r2_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ya_dev_2019r2_5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ya_dev_2019r2_6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ya_dev_2019r2_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ya_dev_2019r2_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ya_dev_2019r2_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ya_dev_2019r2_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ya_dev_2019r2_5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ya_dev_2019r2_6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ya_dev_2019r2_1_test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ya_dev_2019r2_2_test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ya_dev_2019r2_3_test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ya_dev_2019r2_4_test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ya_dev_2019r2_5_test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ya_dev_2019r2_6_test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
