@@ -27,6 +27,9 @@
     <ClCompile Include="segment_tree_testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="point_in_segments_count.h">
+      <Filter>Header Files\segments</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tests.h">
@@ -44,6 +47,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="min_points_cover_for_segments_test.txt">
+      <Filter>Resource Files\segments</Filter>
+    </Text>
+    <Text Include="point_in_segments_count_test.txt">
       <Filter>Resource Files\segments</Filter>
     </Text>
   </ItemGroup>

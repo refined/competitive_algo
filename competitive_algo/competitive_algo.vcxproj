@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="point_in_segments_count.h" />
     <ClCompile Include="segment_tree_testing.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +130,7 @@
   <ItemGroup>
     <Text Include="segment_tree_testing.txt" />
     <Text Include="min_points_cover_for_segments_test.txt" />
+    <Text Include="point_in_segments_count_test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
