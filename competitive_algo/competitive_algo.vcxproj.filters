@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\segments">
+      <UniqueIdentifier>{07524d8e-479c-4f7a-9235-5036992a6250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\segments">
+      <UniqueIdentifier>{fcb51c48-ac46-4646-b852-bc031b5004fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,10 +35,16 @@
     <ClInclude Include="segment_tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="min_points_cover_for_segments.h">
+      <Filter>Header Files\segments</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="segment_tree_testing.txt">
       <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="min_points_cover_for_segments_test.txt">
+      <Filter>Resource Files\segments</Filter>
     </Text>
   </ItemGroup>
 </Project>

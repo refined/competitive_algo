@@ -122,11 +122,13 @@
     <ClCompile Include="segment_tree_testing.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="min_points_cover_for_segments.h" />
     <ClInclude Include="segment_tree.h" />
     <ClInclude Include="tests.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="segment_tree_testing.txt" />
+    <Text Include="min_points_cover_for_segments_test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
