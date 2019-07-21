@@ -11,7 +11,7 @@
 #include "tests.h"
 #endif
 
-namespace algo::knapsack {
+namespace algo::dynamic {
 	using namespace std;
 
 	/// Первая строка входа содержит целые числа 1≤W≤104 и 1≤n≤300 — вместимость рюкзака и число золотых слитков. 

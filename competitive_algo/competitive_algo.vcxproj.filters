@@ -19,11 +19,11 @@
     <Filter Include="Resource Files\segments">
       <UniqueIdentifier>{fcb51c48-ac46-4646-b852-bc031b5004fd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\knapsack">
-      <UniqueIdentifier>{3f09cca1-1597-4093-8b4a-e33df976dbfa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\knapsack">
+    <Filter Include="Header Files\dynamic">
       <UniqueIdentifier>{44d4c4cf-9a3b-407a-91b2-e5956d823fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\dynamic">
+      <UniqueIdentifier>{3f09cca1-1597-4093-8b4a-e33df976dbfa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +48,10 @@
       <Filter>Header Files\segments</Filter>
     </ClInclude>
     <ClInclude Include="knapsack_get_max_value.h">
-      <Filter>Header Files\knapsack</Filter>
+      <Filter>Header Files\dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_operations_counter.h">
+      <Filter>Header Files\dynamic</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -62,7 +65,10 @@
       <Filter>Resource Files\segments</Filter>
     </Text>
     <Text Include="knapsack_get_max_value_test.txt">
-      <Filter>Resource Files\knapsack</Filter>
+      <Filter>Resource Files\dynamic</Filter>
+    </Text>
+    <Text Include="dynamic_operations_counter_test.txt">
+      <Filter>Resource Files\dynamic</Filter>
     </Text>
   </ItemGroup>
 </Project>
