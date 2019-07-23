@@ -126,6 +126,7 @@
   <ItemGroup>
     <ClInclude Include="dynamic_operations_counter.h" />
     <ClInclude Include="knapsack_get_max_value.h" />
+    <ClInclude Include="longest_nonincreasing_subsequence.h" />
     <ClInclude Include="min_points_cover_for_segments.h" />
     <ClInclude Include="segment_tree.h" />
     <ClInclude Include="tests.h" />
@@ -133,6 +134,7 @@
   <ItemGroup>
     <Text Include="dynamic_operations_counter_test.txt" />
     <Text Include="knapsack_get_max_value_test.txt" />
+    <Text Include="longest_nonincreasing_subsequence_test.txt" />
     <Text Include="segment_tree_testing.txt" />
     <Text Include="min_points_cover_for_segments_test.txt" />
     <Text Include="point_in_segments_count_test.txt" />

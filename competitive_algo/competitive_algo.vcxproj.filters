@@ -53,6 +53,9 @@
     <ClInclude Include="dynamic_operations_counter.h">
       <Filter>Header Files\dynamic</Filter>
     </ClInclude>
+    <ClInclude Include="longest_nonincreasing_subsequence.h">
+      <Filter>Header Files\dynamic</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="segment_tree_testing.txt">
@@ -68,6 +71,9 @@
       <Filter>Resource Files\dynamic</Filter>
     </Text>
     <Text Include="dynamic_operations_counter_test.txt">
+      <Filter>Resource Files\dynamic</Filter>
+    </Text>
+    <Text Include="longest_nonincreasing_subsequence_test.txt">
       <Filter>Resource Files\dynamic</Filter>
     </Text>
   </ItemGroup>
