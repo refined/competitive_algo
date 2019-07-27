@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dynamic_operations_counter.h" />
+    <ClInclude Include="longest_nonincreasing_subsequence_log.h" />
     <ClInclude Include="knapsack_get_max_value.h" />
     <ClInclude Include="longest_nonincreasing_subsequence.h" />
     <ClInclude Include="min_points_cover_for_segments.h" />

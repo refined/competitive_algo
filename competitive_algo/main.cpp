@@ -6,6 +6,7 @@
 #include "knapsack_get_max_value.h"
 #include "dynamic_operations_counter.h"
 #include "longest_nonincreasing_subsequence.h"
+#include "longest_nonincreasing_subsequence_log.h"
 
 
 #ifdef _DEBUG
@@ -18,7 +19,7 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 		
-	algo::dynamic::longest_nonincreasing_subsequence_test();
+	algo::dynamic::longest_nonincreasing_subsequence_log_test();
 
 	std::cin.get();
 	return 0;

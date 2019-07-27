@@ -56,6 +56,9 @@
     <ClInclude Include="longest_nonincreasing_subsequence.h">
       <Filter>Header Files\dynamic</Filter>
     </ClInclude>
+    <ClInclude Include="longest_nonincreasing_subsequence_log.h">
+      <Filter>Header Files\dynamic</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="segment_tree_testing.txt">

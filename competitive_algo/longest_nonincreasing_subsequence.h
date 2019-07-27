@@ -82,7 +82,7 @@ namespace algo::dynamic {
 	int main() {
 		ios_base::sync_with_stdio(false);
 		cin.tie(0);
-		knapsack_get_max_value(cin, cout);
+		longest_nonincreasing_subsequence(cin, cout);
 #endif
 		return 0;
 	}
