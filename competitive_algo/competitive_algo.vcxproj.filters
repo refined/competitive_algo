@@ -25,6 +25,15 @@
     <Filter Include="Resource Files\dynamic">
       <UniqueIdentifier>{3f09cca1-1597-4093-8b4a-e33df976dbfa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\graph">
+      <UniqueIdentifier>{aa410261-9abe-4ac2-888b-7c1d9d3ead05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\graph">
+      <UniqueIdentifier>{b1838014-f323-4aee-bc07-c9a55eae2bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\search">
+      <UniqueIdentifier>{57d6b776-9839-4bd2-a98a-ea2d50c5cf9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -59,6 +68,12 @@
     <ClInclude Include="longest_nonincreasing_subsequence_log.h">
       <Filter>Header Files\dynamic</Filter>
     </ClInclude>
+    <ClInclude Include="complete_graph.h">
+      <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="count_same_elements.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="segment_tree_testing.txt">
@@ -78,6 +93,9 @@
     </Text>
     <Text Include="longest_nonincreasing_subsequence_test.txt">
       <Filter>Resource Files\dynamic</Filter>
+    </Text>
+    <Text Include="complete_graph_test.txt">
+      <Filter>Resource Files\graph</Filter>
     </Text>
   </ItemGroup>
 </Project>

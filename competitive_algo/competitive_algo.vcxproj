@@ -125,6 +125,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dynamic_operations_counter.h" />
+    <ClInclude Include="complete_graph.h" />
+    <ClInclude Include="count_same_elements.h" />
     <ClInclude Include="longest_nonincreasing_subsequence_log.h" />
     <ClInclude Include="knapsack_get_max_value.h" />
     <ClInclude Include="longest_nonincreasing_subsequence.h" />
@@ -133,6 +135,7 @@
     <ClInclude Include="tests.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="complete_graph_test.txt" />
     <Text Include="dynamic_operations_counter_test.txt" />
     <Text Include="knapsack_get_max_value_test.txt" />
     <Text Include="longest_nonincreasing_subsequence_test.txt" />
