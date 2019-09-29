@@ -65,7 +65,7 @@ namespace algo::segments {
 
 #ifdef _DEBUG
 	inline int min_points_cover_for_segments_test() {
-		run_test_from_text(min_points_cover_for_segments, "min_points_cover_for_segments_test.txt");
+		tests::run_test_from_text(min_points_cover_for_segments, "min_points_cover_for_segments_test.txt");
 #else
 	int main() {
 		ios_base::sync_with_stdio(false);

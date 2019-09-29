@@ -54,7 +54,7 @@ namespace algo::dynamic {
 
 #ifdef _DEBUG
 	inline int knapsack_get_max_value_test() {
-		run_test_from_text(knapsack_get_max_value, "knapsack_get_max_value_test.txt");
+		tests::run_test_from_text(knapsack_get_max_value, "knapsack_get_max_value_test.txt");
 #else
 	int main() {
 		ios_base::sync_with_stdio(false);

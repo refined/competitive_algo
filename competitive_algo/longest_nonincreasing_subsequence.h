@@ -77,7 +77,7 @@ namespace algo::dynamic {
 
 #ifdef _DEBUG
 	inline int longest_nonincreasing_subsequence_test() {
-		run_test_from_text(longest_nonincreasing_subsequence, "longest_nonincreasing_subsequence_test.txt");
+		tests::run_test_from_text(longest_nonincreasing_subsequence, "longest_nonincreasing_subsequence_test.txt");
 #else
 	int main() {
 		ios_base::sync_with_stdio(false);

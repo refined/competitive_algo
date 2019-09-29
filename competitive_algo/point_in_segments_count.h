@@ -66,7 +66,7 @@ namespace algo::segments {
 
 #ifdef _DEBUG
 	inline int point_in_segments_count_test() {
-		run_test_from_text(run_point_in_segments_count, "point_in_segments_count_test.txt");
+		tests::run_test_from_text(run_point_in_segments_count, "point_in_segments_count_test.txt");
 #else
 	int main() {
 		ios_base::sync_with_stdio(false);

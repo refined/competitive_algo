@@ -66,7 +66,7 @@ namespace algo::dynamic {
 
 #ifdef _DEBUG
 	inline int dynamic_operations_counter_test() {
-		run_test_from_text(dynamic_operations_counter, "dynamic_operations_counter_test.txt");
+		tests::run_test_from_text(dynamic_operations_counter, "dynamic_operations_counter_test.txt");
 #else
 	int main() {
 		ios_base::sync_with_stdio(false);

@@ -20,6 +20,6 @@ void run_segment_tree_test(std::istream& in, std::ostream& out)
 }
 
 int segment_tree_testing() {
-	run_test_from_text(run_segment_tree_test, "segment_tree_testing.txt");
+	tests::run_test_from_text(run_segment_tree_test, "segment_tree_testing.txt");
 	return 0;
 }
